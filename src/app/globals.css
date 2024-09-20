@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .nav-active {
+    @apply hover:text-black hover:translate-x-[1px] tracking-tight transition-all duration-200 ease-in-out;
+  }
+  .logo-ticker {
+    @apply h-8 w-auto;
+  }
+}
